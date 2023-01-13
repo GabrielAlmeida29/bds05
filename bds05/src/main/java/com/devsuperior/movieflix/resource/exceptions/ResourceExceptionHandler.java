@@ -1,4 +1,4 @@
-package com.devsuperior.movieflix.controllers.exceptions;
+package com.devsuperior.movieflix.resource.exceptions;
 
 import java.time.Instant;
 

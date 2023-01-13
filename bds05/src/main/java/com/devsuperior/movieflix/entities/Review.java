@@ -28,7 +28,7 @@ public class Review implements Serializable{
 
 	@ManyToOne
 	@JoinColumn(name = "movie_id")
-	private Movie movie;
+	private Movie movies;
 	
 	public Review() {
 	}
@@ -63,11 +63,11 @@ public class Review implements Serializable{
 	}
 
 	public Movie getMovie() {
-		return movie;
+		return movies;
 	}
 
 	public void setMovie(Movie movie) {
-		this.movie = movie;
+		this.movies = movie;
 	}
 
 	@Override
